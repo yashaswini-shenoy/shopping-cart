@@ -1,0 +1,36 @@
+ul
+{
+    float:right;
+}
+.card-text
+{
+    white-space: pre;
+}
+.cart{
+background-color:grey;
+position:relative;
+height:auto;
+width:180px;
+padding:30px;
+display:inline-block;
+text-align:right;
+
+}
+
+#container
+{
+    text-align:right;
+}
+.card
+{
+    background-origin: padding-box;
+    background-origin: shadow 10px;
+    text-shadow: darkred;
+}
+.square
+{
+outline: 10px solid black;
+}
+
+
+
