@@ -102,7 +102,7 @@ if(!$conn)
         {?>
      <div class="square" id="sq<?php echo $j ?>" style="display:block; float:left;outline:none;">
     <div class="card" style="width:100%;border:1px solid black; border-radius:10px;">
-      <img class="card-img-top img-fluid" style="height:250px" src="images/<?php echo $product[1];?>" alt="There's an image here">
+      <img class="card-img-top img-fluid" style="height:250px" src="<?php echo $product[1];?>" alt="There's an image here">
       <div class="card-body text-center" style=" background-color:grey;">
           <h4 class="card-title"><?php echo $product[0];?></h4>
           <p class="card-text">Price: <?php echo $product[2];?>    Discount:<?php
